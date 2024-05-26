@@ -1,16 +1,19 @@
-# todo_monolith
+# To-Do with Clean Arch
 
-A new Flutter project.
+This is a to-do app example with a clean architecture.
 
-## Getting Started
+## Architecture
 
-This project is a starting point for a Flutter application.
+The applied architecture is a clean architecture that works with layers, where the external layers know the internal layers, but the internals don't know the externals.
 
-A few resources to get you started if this is your first Flutter project:
+![Image](assets/clean_arch_todo_app.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Good Practices and Patterns
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project applies good programming practices and familiar patterns, such as SOLID principles, repository pattern, etc.
+
+## Bonus 
+
+If you want to see the same project but with the Micro Front-Ends pattern applied, you can find it here:
+
+- [To-Do with Clean Arch and Micro Front Ends](https://github.com/mathsilva-dev/todo_mfe_monorepo)
