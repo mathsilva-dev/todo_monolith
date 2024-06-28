@@ -7,6 +7,7 @@ This is a to-do app example with a clean architecture.
 The applied architecture is a clean architecture that works with layers, where the external layers know the internal layers, but the internals don't know the externals.
 
 ![Image](assets/clean_arch_todo_app.png)
+![Image](assets/clean_arch_onion_todo_app.png)
 
 ## Good Practices and Patterns
 
